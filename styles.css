@@ -1,0 +1,68 @@
+/* General Page Styles */
+body {
+  font-family: "Creepster", cursive; /* A fun Halloween font (can use Google Fonts) */
+  background-color: #0d0d0d; /* Dark background for spooky effect */
+  color: #f1f1f1; /* Light text color for contrast */
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 3em;
+  color: #ff8c00; /* Pumpkin orange */
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #ff4500; /* Bright orange-red */
+}
+
+/* Ingredient Buttons */
+button.ingredient {
+  background-color: #663399; /* Dark purple for a magical feel */
+  color: #fff; /* White text for contrast */
+  border: 2px solid #ff8c00; /* Orange border to make it pop */
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.ingredient:hover {
+  background-color: #ff8c00; /* Turn orange when hovered */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Brew Potion Button */
+#brew-potion {
+  background-color: #32cd32; /* Green for spooky potion */
+  color: #fff;
+  height: 50px;
+  width: 100px;
+  border-radius: 8px;
+}
+
+#brew-potion:hover {
+  background-color: black;
+  box-shadow: inset 1px 1px 10px orangered;
+  transform: scale(1.1);
+}
+
+/* sizing image */
+
+#potion-image {
+  max-width: 500px; /* Set the maximum width of the image */
+  max-height: 500px; /* Set the maximum height of the image */
+  margin-top: 20px;
+  border: 2px solid #ff8c00;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ff8c00; /* Glowing effect */
+}
